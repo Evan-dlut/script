@@ -1,7 +1,7 @@
 #coding:utf-8
 import urllib2
 import re
-
+ 
 def copy(url, rep):
 	req = urllib2.Request(url)   
 	content = urllib2.urlopen(req, timeout=15).read()
